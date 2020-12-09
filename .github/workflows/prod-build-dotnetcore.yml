@@ -15,7 +15,7 @@ on:
     branches: [ master ]
     paths: [apis/poi/**,.github/workflows/prod-build-dotnetcore.yml]
   pull_request:
-    branches: [ Development ]
+    branches: [ master ]
     paths: [apis/poi/**,.github/workflows/prod-build-dotnetcore.yml]
 jobs:
   build:
